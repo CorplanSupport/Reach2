@@ -1,0 +1,26 @@
+{
+	"@type":"Cube",
+	"Name":"Profit and Loss",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Scenario')"
+		},
+		{
+			"@id":"Dimensions('Period')"
+		},
+		{
+			"@id":"Dimensions('Cost Centre')"
+		},
+		{
+			"@id":"Dimensions('Channel')"
+		},
+		{
+			"@id":"Dimensions('PL Account')"
+		},
+		{
+			"@id":"Dimensions('M Profit and Loss')"
+		}
+	],
+	"Views@Code.links":[]
+}

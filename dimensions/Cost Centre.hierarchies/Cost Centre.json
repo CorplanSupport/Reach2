@@ -1,0 +1,69 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Cost Centre",
+	"Elements":
+	[
+		{
+			"Name":"All Cost Centres",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"600061",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"600064",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"600040",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"600060",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"600035",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"600065",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"All Cost Centres",
+			"ComponentName":"600061",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cost Centres",
+			"ComponentName":"600064",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cost Centres",
+			"ComponentName":"600040",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cost Centres",
+			"ComponentName":"600060",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cost Centres",
+			"ComponentName":"600035",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cost Centres",
+			"ComponentName":"600065",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

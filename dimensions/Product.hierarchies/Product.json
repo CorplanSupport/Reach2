@@ -1,0 +1,321 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Product",
+	"Elements":
+	[
+		{
+			"Name":"All Products",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Data Services",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Miscellaneous",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mapping",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apartments",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Brand Development",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Urban",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Calibre Data Recharge",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Calibre development",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Copywriting",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Box",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Rural",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Design services",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Digital - Management",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Digital - Media Recharge",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Digital - SEO revenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Digital Catalogue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Direct mail Campaign",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Direct mail Postage",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FAF",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Catalogue Rework",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Freight",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Google Ads",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Network Management Fee",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Postie",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Postie Oversize",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Print",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Targeting",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"RP Rest of World",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Samples",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Store/Site Copies",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Social Services",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"STIHL Recharge",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Calibre support fees",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Website Build",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Data Services",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Miscellaneous",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Mapping",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Apartments",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Brand Development",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Urban",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Calibre Data Recharge",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Calibre development",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Copywriting",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Box",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Rural",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Design services",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Digital - Management",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Digital - Media Recharge",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Digital - SEO revenue",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Digital Catalogue",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Direct mail Campaign",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Direct mail Postage",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"FAF",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Catalogue Rework",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Freight",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Google Ads",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Network Management Fee",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Postie",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Postie Oversize",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Print",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Targeting",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"RP Rest of World",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Samples",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Store/Site Copies",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Social Services",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"STIHL Recharge",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Calibre support fees",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Products",
+			"ComponentName":"Website Build",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

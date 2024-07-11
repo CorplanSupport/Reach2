@@ -1,0 +1,69 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Channel",
+	"Elements":
+	[
+		{
+			"Name":"All Channels",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Product",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Letterbox",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OOH",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Digital",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sample",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Stihl",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"All Channels",
+			"ComponentName":"Product",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Channels",
+			"ComponentName":"Letterbox",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Channels",
+			"ComponentName":"OOH",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Channels",
+			"ComponentName":"Digital",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Channels",
+			"ComponentName":"Sample",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Channels",
+			"ComponentName":"Stihl",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

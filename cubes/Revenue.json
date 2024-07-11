@@ -1,0 +1,29 @@
+{
+	"@type":"Cube",
+	"Name":"Revenue",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Scenario')"
+		},
+		{
+			"@id":"Dimensions('Period')"
+		},
+		{
+			"@id":"Dimensions('Cost Centre')"
+		},
+		{
+			"@id":"Dimensions('Channel')"
+		},
+		{
+			"@id":"Dimensions('Product')"
+		},
+		{
+			"@id":"Dimensions('Line No')"
+		},
+		{
+			"@id":"Dimensions('M Revenue')"
+		}
+	],
+	"Views@Code.links":[]
+}
