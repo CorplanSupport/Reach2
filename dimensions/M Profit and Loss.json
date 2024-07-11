@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"M Profit and Loss",
+	"Hierarchies@Code.links":
+	[
+		"M Profit and Loss.hierarchies/M Profit and Loss.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('M Profit and Loss')/Hierarchies('M Profit and Loss')"
+	}
+}

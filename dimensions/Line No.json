@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Line No",
+	"Hierarchies@Code.links":
+	[
+		"Line No.hierarchies/Line No.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Line No')/Hierarchies('Line No')"
+	}
+}

@@ -1,0 +1,76 @@
+{
+	"@type":"Hierarchy",
+	"Name":"M Profit and Loss",
+	"Elements":
+	[
+		{
+			"Name":"Phasing Driver",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Full Year Entry",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Local$ Reported",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Local$",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Local$ Transactions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"AUD$",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Comments",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Account Number",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ref No.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Description",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Transaction Date",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Line Sequence Number",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Source Module",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DR",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CR",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Bal",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gross Margin %",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

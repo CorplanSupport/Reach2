@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"M Revenue",
+	"Hierarchies@Code.links":
+	[
+		"M Revenue.hierarchies/M Revenue.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('M Revenue')/Hierarchies('M Revenue')"
+	}
+}

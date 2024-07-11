@@ -1,0 +1,402 @@
+{
+	"@type":"Hierarchy",
+	"Name":"PL Account",
+	"Elements":
+	[
+		{
+			"Name":"Total Income Statement",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Net Profit after Taxation",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"EBITDA",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"EBIT",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Gross Margin",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Total Revenue",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"410010",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410020",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410030",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410035",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410040",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410015",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410090",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410085",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410011",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410012",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410050",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410051",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410060",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410080",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410105",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410100",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410092",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410071",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410070",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410075",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410064",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410062",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410061",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410067",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410066",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"410065",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"430060",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"430020",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"430010",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"430040",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"430030",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"430050",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other Income",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"420010",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Cost of Goods Sold",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Operating Expenses",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Non Operating Expenses",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Taxation",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total Income Statement",
+			"ComponentName":"Net Profit after Taxation",
+			"Weight":1
+		},
+		{
+			"ParentName":"Net Profit after Taxation",
+			"ComponentName":"EBITDA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Net Profit after Taxation",
+			"ComponentName":"Taxation",
+			"Weight":-1
+		},
+		{
+			"ParentName":"EBITDA",
+			"ComponentName":"EBIT",
+			"Weight":1
+		},
+		{
+			"ParentName":"EBITDA",
+			"ComponentName":"Non Operating Expenses",
+			"Weight":-1
+		},
+		{
+			"ParentName":"EBIT",
+			"ComponentName":"Gross Margin",
+			"Weight":1
+		},
+		{
+			"ParentName":"EBIT",
+			"ComponentName":"Operating Expenses",
+			"Weight":-1
+		},
+		{
+			"ParentName":"Gross Margin",
+			"ComponentName":"Total Revenue",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gross Margin",
+			"ComponentName":"Total Cost of Goods Sold",
+			"Weight":-1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410010",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410020",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410030",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410035",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410040",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410015",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410090",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410085",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410011",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410012",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410050",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410051",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410060",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410080",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410105",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410100",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410092",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410071",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410070",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410075",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410064",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410062",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410061",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410067",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410066",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"410065",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"430060",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"430020",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"430010",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"430040",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"430030",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"430050",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Revenue",
+			"ComponentName":"Other Income",
+			"Weight":1
+		},
+		{
+			"ParentName":"Other Income",
+			"ComponentName":"420010",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

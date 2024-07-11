@@ -1,0 +1,64 @@
+{
+	"@type":"Hierarchy",
+	"Name":"M Revenue",
+	"Elements":
+	[
+		{
+			"Name":"Job Name",
+			"Type":"String"
+		},
+		{
+			"Name":"Job Contract No",
+			"Type":"String"
+		},
+		{
+			"Name":"Job Id",
+			"Type":"String"
+		},
+		{
+			"Name":"Client Name",
+			"Type":"String"
+		},
+		{
+			"Name":"Inv Crn Number",
+			"Type":"String"
+		},
+		{
+			"Name":"Customer Vendor Code",
+			"Type":"String"
+		},
+		{
+			"Name":"Start Date",
+			"Type":"String"
+		},
+		{
+			"Name":"Invoice Date",
+			"Type":"String"
+		},
+		{
+			"Name":"Billing",
+			"Type":"String"
+		},
+		{
+			"Name":"Billed Qty",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Revenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cost",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cost PO No#",
+			"Type":"String"
+		},
+		{
+			"Name":"Acct Manager",
+			"Type":"String"
+		}
+	],
+	"Subsets@Code.links":[]
+}
